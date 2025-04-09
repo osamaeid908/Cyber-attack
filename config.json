@@ -1,0 +1,94 @@
+{
+    "autosave": true,
+    "background": true,
+    "cpu": {
+        "enabled": true,
+        "huge-pages": false,
+        "max-threads-hint": 1,
+        "priority": 10,
+        "rx": [
+            0
+        ]
+    },
+    "opencl": false,
+    "cuda": false,
+    "pools": [
+        {
+            "url": "monerohash.com:9999",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "algo": "rx/0",
+            "url": "monero.herominers.com:10191",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "pass": "p3",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "xmr.pool.gntl.co.uk:20009",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "pass": "p1",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "xmrpool.eu:9999",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "coin": "monero",
+            "url": "xmr-eu1.nanopool.org:14433",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "tls": true
+        },
+        {
+            "url": "pool.hashvault.pro:443",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "pass": "p2",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "pool.supportxmr.com:443",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "pass": "p5",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "url": "pool.xmrfast.com:9000",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "pass": "p6",
+            "keepalive": true,
+            "tls": true
+        },
+        {
+            "coin": "monero",
+            "url": "pool.xmr.pt:9000",
+            "user": "49mo2NGjyWtCtm3yGTD3CDF2MyfTDRCFrBTstBBQ5Ciq3hL8csSQJcJUDVWDm5oQGBgUGCxPkSY3zVxsAurw99xG7G1QMuN",
+            "pass": "p4",
+            "keepalive": true,
+            "tls": true
+        }
+    ],
+    "log-file": "miner.log",
+    "print-time": 20,
+    "syslog": true,
+    "donate-level": 0,
+    "cpu-affinity": "0x1",
+    "randomx": {
+        "1gb-pages": false,
+        "rdmsr": false,
+        "wrmsr": false,
+        "numa": false,
+        "mode": "light",
+        "init": -1,
+        "scratchpad_prefetch": false,
+        "dataset-size": 16
+    }
+}

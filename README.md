@@ -30,12 +30,4 @@ Run the tool:
 python cyber_attack.py
 ```
 
-> ⚠️ **Note:** Make sure you have the required Python dependencies installed. See the `requirements.txt` file for more info.
-
----
-
-### ⚠️ Legal Disclaimer
-
-This tool is developed for **educational purposes only** and for **authorized penetration testing**.  
-Any misuse of this tool for illegal or malicious activity is strictly prohibited.  
-**The creator (Osama Eid) is not responsible for any damage caused by improper use.**
+> ⚠️ **Note:** Make sure you have the required Python dependencies installed.
